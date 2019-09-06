@@ -1,9 +1,9 @@
 import React from 'react';
-import Ticket from './Keg';
+import Keg from './Keg';
 
-function TicketList(){
+function KegList(){
   return (
-    <Ticket
+    <Keg
       brand="Guiness"
       name="Black Lager"
       category="Stout"
@@ -13,4 +13,4 @@ function TicketList(){
   );
 }
 
-export default TicketList;
+export default KegList;
