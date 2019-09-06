@@ -7,7 +7,7 @@ function Keg(props){
       <h3><strong>{props.brand} - {props.name}</strong></h3>
       <h4><em>{props.category}</em></h4>
       <p><em>Alcohol By Volume {props.abv}%</em></p>
-      <p>Price (16oz): <em>${props.price}</em></p>
+      <p>Price (pint): <em>${props.price}</em></p>
       <hr/>
     </div>
   );
