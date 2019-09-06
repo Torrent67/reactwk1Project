@@ -1,6 +1,6 @@
 import React from 'react';
 
-function NewKegForm() {
+function AddKegForm() {
   return (
     <div>
       <br></br>
@@ -38,4 +38,4 @@ function NewKegForm() {
   );
 }
 
-export default NewKegForm;
+export default AddKegForm;
